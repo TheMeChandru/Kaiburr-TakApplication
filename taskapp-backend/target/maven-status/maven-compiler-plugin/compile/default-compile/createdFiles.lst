@@ -1,0 +1,8 @@
+com/kaiburr/taskapp/service/TaskService.class
+com/example/taskapp/App.class
+com/kaiburr/taskapp/TaskAppApplication.class
+com/kaiburr/taskapp/model/Task.class
+com/kaiburr/taskapp/service/K8sExecutorService.class
+com/kaiburr/taskapp/model/TaskExecution.class
+com/kaiburr/taskapp/controllers/TaskController.class
+com/kaiburr/taskapp/repository/TaskRepository.class

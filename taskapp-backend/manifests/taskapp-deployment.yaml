@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: taskapp-backend
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: taskapp-backend
+  template:
+    metadata:
+      labels:
+        app: taskapp-backend
+    spec:
+      containers:
+        - name: taskapp-backend
+          image: taskapp-backend:1.0
+          ports:
+            - containerPort: 8080
+          env:
+            - name: SPRING_DATA_MONGODB_URI
+              value: mongodb://mongo-service:27017/tasksdb
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: taskapp-service
+spec:
+  type: NodePort
+  selector:
+    app: taskapp-backend
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 30080

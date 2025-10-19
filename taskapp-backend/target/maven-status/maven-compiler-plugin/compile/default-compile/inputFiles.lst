@@ -1,0 +1,8 @@
+/home/user/Desktop/Kaiburr-JavaApp/taskapp-backend/src/main/java/com/example/taskapp/App.java
+/home/user/Desktop/Kaiburr-JavaApp/taskapp-backend/src/main/java/com/example/taskapp/TaskAppApplication.java
+/home/user/Desktop/Kaiburr-JavaApp/taskapp-backend/src/main/java/com/example/taskapp/controllers/TaskController.java
+/home/user/Desktop/Kaiburr-JavaApp/taskapp-backend/src/main/java/com/example/taskapp/model/Task.java
+/home/user/Desktop/Kaiburr-JavaApp/taskapp-backend/src/main/java/com/example/taskapp/model/TaskExecution.java
+/home/user/Desktop/Kaiburr-JavaApp/taskapp-backend/src/main/java/com/example/taskapp/repository/TaskRepository.java
+/home/user/Desktop/Kaiburr-JavaApp/taskapp-backend/src/main/java/com/example/taskapp/service/K8sExecutorService.java
+/home/user/Desktop/Kaiburr-JavaApp/taskapp-backend/src/main/java/com/example/taskapp/service/TaskService.java
